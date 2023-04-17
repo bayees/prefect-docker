@@ -10,7 +10,7 @@ on:
 env:
   DEPLOYMENT_NAME: my-deployment
   FLOW_FILE: flow.py
-  ENTRYPOINT: my_flow_decorated_function
+  ENTRYPOINT: api_flow
   FILESYSTEM_EXTRAS: gcsfs
   INFRA: kubernetes-job/default-k8s-job
   STORAGE: gcs/my-flow-storage-block/my-deployment
