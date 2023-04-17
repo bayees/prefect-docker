@@ -12,7 +12,7 @@ env:
   FLOW_FILE: flow.py
   ENTRYPOINT: api_flow
   FILESYSTEM_EXTRAS: gcsfs
-  STORAGE_BLOCK: github/
+  STORAGE_BLOCK: github/prefect-docker
   WORK_QUEUE: agent
   PREFECT_API_KEY: ${{ secrets.PREFECT_API_KEY }}
   PREFECT_API_URL: ${{ secrets.PREFECT_API_URL }}
